@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spline</title>
+    <script type="module" src="drawSplines.mjs"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div>
+            <input type="button" name="EndSpline" id="EndSpline" value="New Spline">
+            <h6 id="Warning" style="color: #ff0000"></h6>
+
+            <input type="button" name="Delete" id="Delete" value="Delete Spline" style="margin-bottom: 10px">
+        </div>
+        <div class="element">
+            <input type="color" id="Control" name="Control" value="#ff0000">
+            <label for="Control">Control Point</label>
+        </div>
+        <div class="element">
+            <input type="color" id="Approximate" name="Approximate" value="#0000ff">
+            <label for="Approximate">Approximate Point</label>
+        </div>
+        <div class="element">
+            <input type="color" id="Draw" name="Draw">
+            <label for="Draw">Draw Color</label>
+        </div>
+    </div>
+    <canvas id="canvas">
+
+    </canvas>
+</body>
+</html>
